@@ -21,5 +21,5 @@ spec:
         - name: LOG_LEVEL
           valueFrom:
             configMapKeyRef:
-              - name: myapp-config
+                name: myapp-config
                 key: log_level
