@@ -6,4 +6,4 @@ metadata:
   annotations: 
     app.kubernetes.io/part-of: argocd
 data:
-  log_level: INFO
+  log_level: ERROR
