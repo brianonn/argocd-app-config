@@ -1,0 +1,2 @@
+# argocd-app-config
+
