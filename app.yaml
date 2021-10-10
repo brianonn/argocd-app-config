@@ -13,7 +13,7 @@ spec:
     path: dev
   destination:
     server: https://kubernetes.default.svc
-    namespace: myapp
+    namespace: default
   
   syncPolicy:
     # create namespace automatically
