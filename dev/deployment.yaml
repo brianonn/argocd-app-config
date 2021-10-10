@@ -17,3 +17,9 @@ spec:
         image: nanajanashia/argocd-app:1.0
         ports:
         - containerPort: 8080
+        env:
+        - name: LOG_LEVEL
+          valueFrom:
+            configMapKeyRef:
+              - name: myapp-config
+                key: log_level
