@@ -3,6 +3,7 @@ kind: ConfigMap
 metadata:
   name: myapp-config
   # annotation needed for configMaps, so ArgoCD will use them
-  app.kubernetes.io/part-of: argocd
+  annotations: 
+    app.kubernetes.io/part-of: argocd
 data:
   log_level: INFO
