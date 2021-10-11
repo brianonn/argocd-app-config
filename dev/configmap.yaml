@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: myapp-config
-  # annotation needed for configMaps, so ArgoCD will use them
-  annotations: 
-    app.kubernetes.io/part-of: argocd
-data:
-  log_level: INFO
