@@ -6,7 +6,7 @@ spec:
   selector:
     app: myapp
   ports:
-  - port: 8090
+  - port: 8080
     protocol: TCP
     targetPort: 8080
   
