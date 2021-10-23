@@ -1,3 +1,11 @@
+### ArgoCD gitops demo
+
+Originally from Nana Janashia
+
+Original gitlab repo: https://gitlab.com/nanuchi/argocd-app-config.git
+YouTube Video: https://www.youtube.com/watch?v=MeU5_k9ssrs
+
+
 #### Commands
 
 ```bash
